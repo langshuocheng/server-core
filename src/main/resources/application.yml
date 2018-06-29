@@ -1,0 +1,10 @@
+server:
+  tomcat:
+    uri-encoding: UTF-8
+spring:
+  profiles:
+    active: dev
+        
+logging:
+  config: classpath:log4j2-spring.yml
+  
